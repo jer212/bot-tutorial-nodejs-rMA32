@@ -25,7 +25,7 @@ function respond() {
   }
   else if(request.text && botRegexFaggot.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTtM-L4Jj2fUEslueMdiX49r1jErhIT6Dwsb93CsIpL6qilqo1j");
+    postMessage("https://i.postimg.cc/PJ2XSpb0/23819815-D782-4-CD8-B57-B-22-EBF3786556.jpg");
     this.res.end();
   } 
   else if(request.text && botRegexProp.test(request.text)) {
