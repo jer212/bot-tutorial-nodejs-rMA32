@@ -7,7 +7,7 @@ function respond() {
   var request = JSON.parse(this.req.chunks[0]),
       botRegex = /^\/cool guy/;  botRegexDL = /^\/DDL/i;botRegexSalt = /^\/salt/;botRegexRules = /^\/rules/
       botRegexAd=/^\/advance/;botRegexCheese = /^\/cheese/; botRegexSC = /^\/SDL/i; botODB = /(.*\s+)(.*odb)(\s+.*)/i; botDuck = /^\/duck/;
-      botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
+      botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCheeseBowl = /^\/CheeseBowl/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
       botRegexFaggot = /^\/faggot/; botRegexboot = /^\/boot/;
       botRegexFaggotBowl = /^\/FaggotBowl/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexskip = /^\/skip/;
@@ -145,9 +145,9 @@ function respond() {
     postMessage("http://media3.giphy.com/media/YCseTHF2I6CCA/giphy.gif");
     this.res.end();
   }
-  else if(request.text && botRegexCC.test(request.text)) {
+  else if(request.text && botRegexCheeseBowl.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/851x1184.jpeg.330228901f684b0cb46cd1cef6953923");
+    postMessage("https://i.postimg.cc/ZqqD9j4M/8-D353024-69-CD-4472-8090-1-D01-CF5-F996-F.jpg");
     this.res.end();
   }
   else if(request.text && botRegexMA32.test(request.text)) {
