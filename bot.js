@@ -10,7 +10,7 @@ function respond() {
       botRegexP = /^\/PDL/i;  botRegexTw = /^\/twitch/i; botRegexSb = /^\/sub/; botRegexSh = /^\/shrug/; botRegexWk = /^\/users/; botRegexCC = /^\/cc/;
       botRegexSiege = /^\/siege/; botRegexOW = /^\/ratings/; 
       botRegexFaggot = /^\/faggot/; botRegexboot = /^\/boot/;
-      botRegexProp = /^\/prop/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexskip = /^\/skip/;
+      botRegexFaggotBowl = /^\/FaggotBowl/;botRegexKys = /^\/kys/; botRegexSlam = /^\/slam/; botRegexskip = /^\/skip/;
       botRegexGian = /^\/gian/; botRegexrip = /^\/rip/; botRegexniños = /^\/niños/;
       botRegexDaf = /^\/dafuq/; botRegexMA32 = /^\/pending/; botRegexTrade = /^\/trade/; 
       siege1 = 'https://i.groupme.com/350x419.png.adc8c73a6c1547e0a9e04320296329f8'; siege2 = 'https://i.groupme.com/1279x752.jpeg.aa5d0401e0df495bba4b4e09dc5a6bd7'
@@ -28,9 +28,9 @@ function respond() {
     postMessage("https://i.postimg.cc/PJ2XSpb0/23819815-D782-4-CD8-B57-B-22-EBF3786556.jpg");
     this.res.end();
   } 
-  else if(request.text && botRegexProp.test(request.text)) {
+  else if(request.text && botRegexFaggotBowl.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://i.groupme.com/409x327.jpeg.08b5d95c51bb4897835cfe6b514f2f52.large");
+    postMessage("https://i.postimg.cc/T11jRHxR/8080-B3-CC-7897-47-F5-96-A8-53-BDC56-DE49-E.jpg");
     this.res.end();
   }
   else if(request.text && botRegexKys.test(request.text)) {
